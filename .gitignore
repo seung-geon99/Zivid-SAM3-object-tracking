@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# Virtual / Conda
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Capture / data (로컬 촬영 결과)
+*.zdf
+*.ply
+*.png
+!docs/*.png
+capture/
+ros2_zivid/capture/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ROS2
+install/
+log/
+build/
+
+# 기타
+*.log
+*.tmp
